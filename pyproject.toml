@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sjakt"
+version = "0.1.0"
+description = ""
+authors = ["Sigve Indregard <sigve@indregard.no>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+websockets = "^10.1"
+asyncinotify = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+server = "sjakt.server:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

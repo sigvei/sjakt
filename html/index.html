@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Sjakt</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="lib/css/chessboard-1.0.0.css" type="text/css">
+
+        <style>
+         body {
+             background-color: #110814;
+             color: #aaa;
+         }
+        #boards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+         .board {
+             max-width: 50vh;
+         }
+        </style>
+
+    </head>
+    <body>
+        <div id="boards"></div>
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/chess.js"></script>
+        <script src="lib/chessboard.js"></script>
+        <script src="main.js"></script>
+
+
+    </body>
+</html>
